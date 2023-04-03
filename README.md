@@ -2,8 +2,12 @@
 
 Consigna:
 -. La regla general es que las palabras se deben transformar poniendo la primera letra al final y luego un "ay".
--. Parte 1:
-- Cuando se ingresa "hello", se debe traducir a "ellohay"
+
+Parte 1:
+-. Cuando se ingresa "hello", se debe traducir a "ellohay"
+
+Parte 2:
+-. Cuando se ingresa "hello world", se debe traducir a "ellohay orldway"
 
 Nota:
   Considere que la entrada puede ser una sola palabra o una oracion, en ese caso transforma cada palabra segun la consigna.
