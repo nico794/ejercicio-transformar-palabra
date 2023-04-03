@@ -9,6 +9,9 @@ Parte 1:
 Parte 2:
 -. Cuando se ingresa "hello world", se debe traducir a "ellohay orldway"
 
+Parte 3:
+-. Cuando se ingresa "hello world", se traduce la primer letra a "Ellohay Orldway"
+
 Nota:
   Considere que la entrada puede ser una sola palabra o una oracion, en ese caso transforma cada palabra segun la consigna.
   El programa solicita ingresar una palabra o palabras por consola, realiza la transformacion y muestra el resultado en una nueva linea.
