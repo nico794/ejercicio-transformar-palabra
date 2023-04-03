@@ -8,13 +8,13 @@ class TransformWordsServiceTest {
     @Test
     void transformOneWord() {
         String result = TransformWordsService.transform("hello");
-        Assertions.assertEquals("ellohay", result);
+        Assertions.assertEquals("Ellohay", result);
     }
 
     @Test
     void transformTwoWords() {
-        String result = TransformWordsService.transform("hello hello");
-        Assertions.assertEquals("ellohay ellohay", result);
+        String result = TransformWordsService.transform("hello world");
+        Assertions.assertEquals("Ellohay Orldway", result);
     }
 
     @Test

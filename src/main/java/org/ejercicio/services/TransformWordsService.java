@@ -32,6 +32,12 @@ public class TransformWordsService {
     private static String transformWord(String word) {
         char firstLetter = word.charAt(0);
 
-        return word.substring(1) + firstLetter + suffix;
+        return capitalize(word.substring(1) + firstLetter + suffix);
+    }
+
+    private static String capitalize(String word) {
+        char firstLetter = Character.toUpperCase(word.charAt(0));
+
+        return firstLetter + word.substring(1);
     }
 }
