@@ -14,7 +14,7 @@ class TransformWordsServiceTest {
     @Test
     void transformTwoWords() {
         String result = TransformWordsService.transform("hello world");
-        Assertions.assertEquals("Ellohay Orldway", result);
+        Assertions.assertEquals("Ellohay, Orldway!", result);
     }
 
     @Test

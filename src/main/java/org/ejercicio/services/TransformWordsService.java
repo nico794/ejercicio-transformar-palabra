@@ -18,7 +18,7 @@ public class TransformWordsService {
         String firstWord = words[0];
 
         String wordTransformed = transformWord(firstWord);
-        result = result.concat(wordTransformed);
+        result = result.concat(wordTransformed).concat(",");
 
         for (int i = 1; i < words.length; i++) {
             result = result.concat(" ");
@@ -26,6 +26,8 @@ public class TransformWordsService {
             wordTransformed = transformWord(words[i]);
             result = result.concat(wordTransformed);
         }
+        result = result.concat("!");
+        
         return result;
     }
 
